@@ -10,8 +10,8 @@ let calculator =
     },
     read()
     {
-        this.a = +prompt(' Enter the value of the first term ');
-        this.b = +prompt(' Enter the value of the second term ');
+        this.a = +prompt(' Enter the value of the first term: ');
+        this.b = +prompt(' Enter the value of the second term: ');
     }
 };
 
