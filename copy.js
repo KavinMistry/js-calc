@@ -1,12 +1,24 @@
-var a = +prompt(' Enter the value of the first term: ');
-var b = +prompt(' Enter the value of the second term: ');
+let calculator = {
+    sum() {
+      return this.a + this.b;
+    },
+  
+    mul() {
+      return this.a * this.b;
+    },
+  
+    read() {
+      this.a = +document.getElementById('Input').value
+      this.b = +document.getElementById('Input2').value
+    }
+  };
 
 function CalczS() {
-    var c = a + b
-    alert(" " + c )
+    calculator.read();
+    alert( calculator.sum() );
     }
 
 function CalczM() {
-    var c = a * b
-    alert(" " + c )
+    calculator.read();
+    alert( calculator.mul() );
     }
