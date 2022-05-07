@@ -3,7 +3,9 @@
     max-width: 500px;
     margin: auto;
     margin-bottom: 1px;
-    
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
 }
 
 .center
@@ -19,7 +21,13 @@
     max-width: 500px;
     margin: auto;
     margin-top: 10px;
-    margin-right: 40px;
+    padding: 30px 50px;
+    margin: 7px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: white;
+    border-style: solid;
+    font-size: larger;
 }
 
 .centertext
@@ -29,6 +37,7 @@
     margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 10px;
+    color: white;
 }
 
 input {
@@ -39,15 +48,4 @@ input {
 
 div {
     display: flex;
-}
-
-button {
-    padding: 30px 50px;
-    margin: 10px;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    border: white;
-    outline: none;
-    border-radius: 15px;
-    font-size: larger;
-}      
+}     
