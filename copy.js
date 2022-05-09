@@ -24,21 +24,21 @@ function CalczM() {
   }
 
 function hover() {
-  document.getElementById("button1").style.backgroundColor = "grey"
   document.getElementById("button1").style.color = "aqua"
+  document.getElementById("button1").style.borderColor = "aqua"
 }
 
 function hoveroff() {
-  document.getElementById("button1").style.backgroundColor = "black"
   document.getElementById("button1").style.color = "white"
+  document.getElementById("button1").style.borderColor = "white"
 }
 
 function hover1() {
-  document.getElementById("button2").style.backgroundColor = "grey"
   document.getElementById("button2").style.color = "aqua"
+  document.getElementById("button2").style.borderColor = "aqua"
 }
 
 function hoveroff1() {
-  document.getElementById("button2").style.backgroundColor = "black"
   document.getElementById("button2").style.color = "white"
+  document.getElementById("button2").style.borderColor = "white"
 }
